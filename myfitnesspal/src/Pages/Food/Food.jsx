@@ -7,6 +7,7 @@ import CompleteEntry from "../../Components/CompleteEntry/CompleteEntry";
 import WaterCount from "../../Components/WaterCount/WaterCount";
 import { Link } from "react-router-dom";
 import "../../Components/Routes/Navbar.css";
+import Date from "./Date";
 
 export default function Food() {
   const storeData = useSelector((data) => {
@@ -56,11 +57,7 @@ export default function Food() {
               className={styles.ads}
             />
           </div>
-          <div className={styles.calender}>
-            <h4>
-              Your food diary for: <input type="date" name="date" id="date" />
-            </h4>
-          </div>
+          <Date />
           <div className={styles.meals}>
             <Table meal="Breakfast" />
             <Table meal="Lunch" />

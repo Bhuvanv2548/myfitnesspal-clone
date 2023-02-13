@@ -6,7 +6,7 @@ import {
   faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 
-import exStyle from "./Exdatestyle.module.css";
+import exStyle from "../Exercise/Exdatestyle.module.css";
 
 import DatePicker from "react-datepicker";
 
@@ -42,8 +42,8 @@ export default function ExDate() {
   return (
     <div className={exStyle.ex_date_main_con}>
       <div>
-        <h3 style={{ color: "#00548f", marginRight: "10px", width: "350px" }}>
-          Your Exercise Diary of:
+        <h3 style={{ color: "#00548f", width: "350px" }}>
+          Your Food Diary of:
         </h3>
         <DatePicker
           selected={startDate}

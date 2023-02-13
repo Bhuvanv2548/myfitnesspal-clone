@@ -134,7 +134,7 @@ export default function Exercise() {
                     <h4 style={{ margin: "0",fontSize:'15px' }}>
                       <span>{totMinDaily()}</span>
                       &nbsp;/&nbsp;
-                      <span style={{ color: "#00548f" }}>0</span>
+                      <span style={{ color: "#00548f" }}>30</span>
                     </h4>
 
                   </td>
@@ -144,7 +144,7 @@ export default function Exercise() {
                     <h4 style={{ margin: "0",fontSize:'15px' }}>
                       <span>{totCalDaily()}</span>
                       &nbsp;/&nbsp;
-                      <span style={{ color: "#00548f" }}>0</span>
+                      <span style={{ color: "#00548f" }}>200</span>
                     </h4>
 
                   </td>
@@ -163,7 +163,7 @@ export default function Exercise() {
                     <h4 style={{ margin: "0" ,fontSize:'15px' }}>
                       <span>{totMinDaily()}</span>
                       &nbsp;/&nbsp;
-                      <span style={{ color: "#00548f" }}>0</span>
+                      <span style={{ color: "#00548f" }}>180</span>
                     </h4>
 
                   </td>
@@ -173,7 +173,7 @@ export default function Exercise() {
                     <h4 style={{ margin: "0",fontSize:'15px' }}>
                       <span>{totCalDaily()} </span>
                       &nbsp;/&nbsp;
-                      <span style={{ color: "#00548f" }}>0</span>
+                      <span style={{ color: "#00548f" }}>1200</span>
                     </h4>
 
                   </td>

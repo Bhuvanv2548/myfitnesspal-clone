@@ -30,7 +30,6 @@ const AllRoutes = () => {
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/' element={<Landing />}></Route>
                 <Route path="/profile" element={<Profile />}></Route>
-
                 <Route path='/start' element={<Start />}></Route>
                 <Route path='/name' element={<Name />}></Route>
                 <Route path='/goals' element={<Goals />}></Route>
@@ -43,7 +42,6 @@ const AllRoutes = () => {
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/username' element={<Username />}></Route>
                 <Route path='/calorie' element={<Calorie />}></Route>
-
                 <Route path="/blogpage" element={<BlogPage />}></Route>
                 <Route path="/exercise" element={<Exercise />}></Route>
                 <Route path="/add_exercise" element={<AddExercise />}></Route>

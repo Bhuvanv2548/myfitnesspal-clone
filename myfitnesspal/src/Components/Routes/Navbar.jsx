@@ -14,6 +14,8 @@ function Navbar() {
   const navigate = useNavigate();
 
   const logoutUser = () => {
+    localStorage.setItem("login", JSON.stringify(false));
+    localStorage.setItem("userImg", null);
     dispatch(logoutUserThunkActionCreator());
     navigate("/");
   };

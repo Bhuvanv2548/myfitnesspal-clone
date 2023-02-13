@@ -18,6 +18,8 @@ import BlogArticleList from "../Blog/BlogArticleList";
 import AddFood from "../../Pages/AddFood/AddFood"
 import Food from "../../Pages/Food/Food"
 import Reports from "../../Pages/Reports/Reports"
+import BlogArticleLiseItem from "../Blog/BlogArticleListItem";
+import BlogPostPage from "../Blog/BlogPostPage";
 
 const AllRoutes = () => {
 
@@ -28,7 +30,6 @@ const AllRoutes = () => {
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/' element={<Landing />}></Route>
                 <Route path="/profile" element={<Profile />}></Route>
-
                 <Route path='/start' element={<Start />}></Route>
                 <Route path='/name' element={<Name />}></Route>
                 <Route path='/goals' element={<Goals />}></Route>
@@ -41,11 +42,10 @@ const AllRoutes = () => {
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/username' element={<Username />}></Route>
                 <Route path='/calorie' element={<Calorie />}></Route>
-
                 <Route path="/blogpage" element={<BlogPage />}></Route>
                 <Route path="/exercise" element={<Exercise />}></Route>
                 <Route path="/add_exercise" element={<AddExercise />}></Route>
-                <Route path="/blogposts" element={<BlogArticleList />}></Route>
+                <Route path="/blogposts" element={<BlogPostPage />}></Route>
                 <Route path="/add_food" element={<AddFood />}></Route>
                 <Route path="/food" element={<Food />}></Route>
                 <Route path="/reports" element={<Reports />}></Route>

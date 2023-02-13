@@ -237,7 +237,7 @@ export default function Exercise() {
             <ExNote></ExNote>
           </div>
           <button className={styles.reportBtn}>
-            <Link to="/reports">View Full Report (Printable)</Link>
+            <Link to="/reports" style={{textDecoration:"none", color:"white"}}>View Full Report (Printable)</Link>
           </button>
         </div>
         <div className={styles.sideDiv}>

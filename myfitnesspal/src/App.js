@@ -10,6 +10,7 @@ function App() {
   const auth = useSelector((data) => {
     return data.auth;
   })
+  console.log(auth);
   return (
     <div className="App">
       {auth.isLogin && <Navbar />}

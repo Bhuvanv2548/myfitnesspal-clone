@@ -24,6 +24,12 @@ This project is a clone of the popular fitness tracking website and mobile app, 
   2. Install dependencies using npm install
   3. Start the development server using npm start
  
+ ## Team
+- [Dilasa Thapa](https://github.com/dilasathapa)
+- [Mayank Sharma](https://github.com/dev-mayank09)
+- [Suhail-K](https://github.com/SUHAIL-K)
+- [Joshwa D'mello](https://github.com/ArjoshwaDmello)
+ 
  ## Please watch the demo
  
 
